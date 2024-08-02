@@ -29,7 +29,6 @@ body{
     margin-top: 60px;
 }
 .search-section {
-    background: url('../images/Picture1.jpg') no-repeat center center; /* Background image */
     background-size: cover;
     padding-top: 170px;
     padding-bottom: 300px;
@@ -74,6 +73,10 @@ body{
 
 /* border round start  */
 
+.br0{
+    border-radius: 18px;
+}
+
 .br1{
     border-radius: 25px;
 }
@@ -88,6 +91,17 @@ body{
 }
 .br5{
     border-radius: 50px;
+}
+
+.bb1{
+    border-bottom: 4px solid #720f3f !important;
+}
+.bb2{
+    border-bottom: 4px solid white !important;
+}
+
+.ba1{
+    border: 4px solid #720f3f !important;
 }
 /* border round end  */
 
@@ -165,3 +179,135 @@ body{
   
   
 /* button css style end */
+
+
+/* innter carousel css start  */
+
+.carousel-containerM {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.carouselM {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-itemM {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f3f3f3;
+}
+
+.button-containerM {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-containerM button {
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #626262;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-containerM button.activeM {
+    background-color: #720f3f;
+}
+/* second inner section css start  */
+
+.carousel-containerN {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.carouselN {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-itemN {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f3f3f3;
+}
+
+.button-containerN {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-containerN button {
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #626262;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-containerN button.active {
+    background-color: #720f3f;
+}
+
+
+/* second inner section css end  */
+/* innter carousel css end  */
+
+/* Qatar airways css start  */
+.bg-image {
+    background-image: url('../images/Qatarairways.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* Qatar airways css end  */
+.opacityy {
+    opacity: 0.8;
+  }
+
+
+  .gallery-container {
+    padding: 0;
+    margin: 0;
+}
+.gallery-container .col {
+    padding: 0;
+    margin: 0;
+}
+.gallery-container img {
+    width: 100%;
+    height: auto;
+}
