@@ -1,17 +1,72 @@
 /* code for responsive css start  */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 749px) {
 
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        color: white !important;
+    }
+    
+    .navbar-toggler{
+        border-color: white !important;
+        color: white;
+    }
+    .ms-4{
+        margin-left: 0px !important;
+    }
     /* index home page start  */
 
-    search-section {
-        height: 50px !important;
+    .search-section {
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../images/Picture1.jpg') no-repeat center !important;
+        background-position: 30% 10% !important;
+        height: 100% !important;
+        width: 200px !important;
+    }
+    .mmartop{
+        margin-top: 15px !important;
+    }
+    .mhdr{
+        width: 100% !important;
+        height: 600px !important;
+        padding-top: 150px !important;
+    }  
+    .btncent{
+        text-align: center !important;
+    }
+    .hdrtxt{
+        font-size: 30px !important;
+        text-align: center !important;
+        color: white !important;
+        margin-top: 100px;
     }
     .revmob {
         display: flex;
         flex-direction: row-reverse;
       }
+    .btncent1{
+        padding: auto !important;
+        margin-top: 20px !important;
+    }
 
     .jpmob{
+        padding: 0px !important;
+    }
+    .pad0{
+        padding: 0px !important;
+    }
+    .carou1{
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+    .tabsecmob{
+        margin: auto !important;
+    }
+    .revmov{
+        display: flex !important;
+        flex-direction: row-reverse !important;
+    }
+    .pdng{
         padding: 0px !important;
     }
     /* index home page end   */
@@ -62,6 +117,10 @@
         font-size: 15px;
     }
     /* find more page end  */
+
+    /* job advertisement page start  */
+    /* sdf  */
+    /* job adcertisment page end   */
   }
 
 /* code for responsive css end  */
