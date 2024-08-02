@@ -134,8 +134,8 @@
         margin-top: 20px;
     }
     /* P_C_W page start page end   */
-  }
-  /* Professional_career_writing page start  */
+
+    /* Professional_career_writing page start  */
   .h1text{
     width: 100% !important;
   }
@@ -184,11 +184,17 @@
     margin-top: 500px !important;
     margin-bottom: 70px !important;
   }
-    .welimg{
-        width: 1000px !important;
-        height: 400px !important;
-        justify-content: center !important;
-    }
+  .welimg {
+    width: 100% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+    position: relative !important;
+    height: 400px !important;
+    background-image: url('images/webcome image.png') !important; /* Path to your image */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
     .weltxt{
         font-size: 50px !important;
     }
@@ -204,3 +210,5 @@
   /* welcome page end  */
 
 /* code for responsive css end  */
+  }
+  
