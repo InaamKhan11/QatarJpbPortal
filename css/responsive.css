@@ -1,6 +1,12 @@
 /* code for responsive css start  */
 @media only screen and (max-width: 749px) {
-
+    .vc {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
     .navbar-toggler-icon{
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         color: white !important;
@@ -13,6 +19,11 @@
     .ms-4{
         margin-left: 0px !important;
     }
+    /* footer  */
+    .normalf{
+        margin-bottom: 30px !important;
+    }
+    /* footer end  */
     /* index home page start  */
 
     .search-section {
@@ -118,9 +129,78 @@
     }
     /* find more page end  */
 
-    /* job advertisement page start  */
-    /* sdf  */
-    /* job adcertisment page end   */
+    /* P_C_W page start  */
+    .imgmar{
+        margin-top: 20px;
+    }
+    /* P_C_W page start page end   */
   }
+  /* Professional_career_writing page start  */
+  .h1text{
+    width: 100% !important;
+  }
+  .mtpcw{
+    margin-top: 10px !important;
+    padding: 10px !important;
+  }
+  .carousel-itemM, .carousel-itemN{
+    padding-bottom: 0px !important;
+  }
+  .button-containerM, .button-containerN{
+    margin-top: 0px !important;
+  }
+  /* Professional_career_writing page end  */
+
+  /* Qatarairways page start   */
+  .abtsec{
+    padding: 30px !important;
+  }
+  .qwbtn{
+    width: 100% !important;
+  }
+  .bg-image{
+    width: auto !important;
+    height: 200px !important;
+  }
+  /* .logo{
+    width: 135px !important;
+  } */
+  .overlay1{
+    height: 150px !important;
+  }
+  .centered-content{
+    margin-top: 130px !important;
+  }
+  .textcc{
+    text-align: center !important;
+  }
+  .mtmarg{
+    margin-top: 190px !important;
+  }
+  /* Qatarairways page end   */
+
+  /* welcome page start */
+  .welcont{
+    margin-top: 500px !important;
+    margin-bottom: 70px !important;
+  }
+    .welimg{
+        width: 1000px !important;
+        height: 400px !important;
+        justify-content: center !important;
+    }
+    .weltxt{
+        font-size: 50px !important;
+    }
+    .welmb{
+        margin-bottom: 500px !important;
+    }
+    .signmb{
+        padding: 0px !important;
+    }
+    .padd{
+        padding: 20px !important;
+    }
+  /* welcome page end  */
 
 /* code for responsive css end  */
