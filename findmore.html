@@ -24,7 +24,7 @@
                 <img src="images/QJP Logo Horizontal white.png" alt="Logo">
             </a>
             <button class="navbar-toggler mobmenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon mobmenu1"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto pe-5">
@@ -32,7 +32,7 @@
                         <a class="nav-link" href="/jobsearch.html">Search Job</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-4 ms-4" href="#">For Job Seekers</a>
+                        <a class="nav-link me-4 ms-4" href="/findmore.html">For Job Seekers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-4" href="#">For Employers</a>
@@ -44,14 +44,14 @@
                         <a class="nav-link" href="/contactus.html">Contact Us</a>
                     </li>
                 </ul>
-                <div class="navbar-icons">
-                    <a href="#" class="icon"><i class="bi bi-grid-3x3-gap-fill h2"></i></a>
-                    <a href="webcomepage.html" class="icon"><i class="bi bi-person-circle h2"></i></a>
-                </div>
+            </div>
+            <div class="navbar-icons">
+                <a href="#" class="icon"><i class="bi bi-grid-3x3-gap-fill h2"></i></a>
+                <a href="webcomepage.html" class="icon"><i class="bi bi-person-circle h2"></i></a>
             </div>
         </div>
     </nav>
-    <!-- nabbar end  -->
+    <!-- navbar end  -->
 
     <!-- nabbar 2 start -->
     <div class="d-flex justify-content-end mt-2 ">
@@ -66,11 +66,51 @@
 
         <div class="container mt-3">
             <div class="row">
-                <div class="col-md-6 text-light pt-5 fmmob3">
-                    <h1 class="fmmob1">Find More</h1>
-                    <h4 class="pt-3 fmmob2"><a class="text-light" href=""> > Job by Department</a></h4>
-                    <h4 class="pt-3 fmmob2"><a class="text-light" href=""> > Job by City</a></h4>
-                    <h4 class="pt-3 fmmob2"><a class="text-light" href=""> > Job by Industry</a></h4>
+                <div class="col-md-6 bgclrn p-0 bg-light br1">
+                    <div class="align1 bg-light br1">
+                        <h3 class="p-3 mb-0 bclr1">Browser Jobs in Qatar</h3>
+                    <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-0 active tabman" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">By City</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-0 tabman" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">By Industry</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link rounded-0 tabman" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">By Department</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <ul class="list-group" style="margin-left: 30px; padding-top: 10px; padding-bottom: 20px; list-style-type: none;" >
+                                <li class="p-1 ul1">Jobs in Doha (05)</li>
+                                <li class="p-1 ul1">Jobs in Dukhan  (05)</li>
+                                <li class="p-1 ul1">Jobs in Al Wakra (05)</li>
+                                <li class="p-1 ul1">Jobs in Lusail (05)</li>
+                                <li class="p-1 ul1">Jobs in Ras Laffan (05)</li>
+                              </ul>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <ul class="list-group" style="margin-left: 30px; padding-top: 10px; padding-bottom: 20px; list-style-type: none;" >
+                                <li class="p-1 ul1">Jobs in Doha (05)</li>
+                                <li class="p-1 ul1">Jobs in Dukhan  (05)</li>
+                                <li class="p-1 ul1">Jobs in Al Wakra (05)</li>
+                                <li class="p-1 ul1">Jobs in Lusail (05)</li>
+                                <li class="p-1 ul1">Jobs in Ras Laffan (05)</li>
+                              </ul>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <ul class="list-group" style="margin-left: 30px; padding-top: 10px; padding-bottom: 20px; list-style-type: none;" >
+                                <li class="p-1 ul1">Jobs in Doha (05)</li>
+                                <li class="p-1 ul1">Jobs in Dukhan  (05)</li>
+                                <li class="p-1 ul1">Jobs in Al Wakra (05)</li>
+                                <li class="p-1 ul1">Jobs in Lusail (05)</li>
+                                <li class="p-1 ul1">Jobs in Ras Laffan (05)</li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+                    
                 </div>
 
                 <div class="col-md-6 fmmob3">
@@ -92,40 +132,43 @@
 
 
 
-     <div class="container mt-4 br1  bg-light p-5 conmob">
-        <div class="row ">
-            <h4 class="minb">Post Title</h4>
-            <h6>Organization Name:</h6>
-            <h6>Location:</h6>
-            <h6>Posted on</h6>
-            <h6>Submitted Job Applications: XX</h6>
+     <div class="container mt-5 contal">
+        <div class="bg-light p-4 br1 ">
+            <div class="row ">
+                <h4 class="minb">Post Title</h4>
+                <h6>Organization Name:</h6>
+                <h6>Location:</h6>
+                <h6>Posted on</h6>
+                <h6>Submitted Job Applications: XX</h6>
+            </div>
+            <hr>
+            <div class="row">
+                <h4 class="minb">Job Description</h4>
+                <p class="">
+                    A Grade “A” MEP company in Qatar is urgently hiring an HVAC Engineer with 5-7 years of experience in HVAC sales and projects. The ideal candidate should have a strong background in HVAC systems and project management. NOC and immediate joining are preferred.
+                    <br><br>
+                    Key Responsibilities: <br>
+                    Design, implement, and manage HVAC systems for various projects.
+                    Develop and execute HVAC sales strategies to meet business objectives.
+                    Conduct site surveys and assess client needs to propose effective HVAC solutions.
+                    <br><br>
+                    Key Responsibilities: <br>
+                    Design, implement, and manage HVAC systems for various projects.
+                    Develop and execute HVAC sales strategies to meet business objectives.
+                    Conduct site surveys and assess client needs to propose effective HVAC solutions.
+                </p>
+                <div class="col-md-6 mt-4">
+                    <button class="btn btn-lg bclr1 w-100 minb " type="button">Apply <br><span class="p-0" style="font-size: 15px;">On Email</span></button>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <button class="btn btn-lg bclr1 w-100 minb" type="button">Apply <br><span class="p-0" style="font-size: 15px;">On Whatsapp</span></button>
+                </div>
+                <div style="padding: 12px;">
+                    <button class="btn btn-lg bclr1 w-100 minb" type="button">Apply with Professional Resume</button>
+                </div>
+            </div>
         </div>
-        <hr>
-        <div class="row">
-            <h4 class="minb">Job Description</h4>
-            <p class="">
-                A Grade “A” MEP company in Qatar is urgently hiring an HVAC Engineer with 5-7 years of experience in HVAC sales and projects. The ideal candidate should have a strong background in HVAC systems and project management. NOC and immediate joining are preferred.
-                <br><br>
-                Key Responsibilities: <br>
-                Design, implement, and manage HVAC systems for various projects.
-                Develop and execute HVAC sales strategies to meet business objectives.
-                Conduct site surveys and assess client needs to propose effective HVAC solutions.
-                <br><br>
-                Key Responsibilities: <br>
-                Design, implement, and manage HVAC systems for various projects.
-                Develop and execute HVAC sales strategies to meet business objectives.
-                Conduct site surveys and assess client needs to propose effective HVAC solutions.
-            </p>
-            <div class="col-md-6 mt-4">
-                <button class="btn btn-lg bclr1 w-100 minb " type="button">Apply <br><span class="p-0" style="font-size: 15px;">On Email</span></button>
-            </div>
-            <div class="col-md-6 mt-4">
-                <button class="btn btn-lg bclr1 w-100 minb" type="button">Apply <br><span class="p-0" style="font-size: 15px;">On Whatsapp</span></button>
-            </div>
-            <div style="padding: 12px;">
-                <button class="btn btn-lg bclr1 w-100 minb" type="button">Apply with Professional Resume</button>
-            </div>
-        </div>
+        
      </div>
      <div class="container">
         <h4 class="d-flex justify-content-end m-4 btaj" ><a class="text-light" style="text-decoration: none;" href=""> < Back to All Jobs</a></h4>

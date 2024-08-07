@@ -19,6 +19,16 @@
     .ms-4{
         margin-left: 0px !important;
     }
+    .bi-person-circle {
+      position: absolute;
+      right: 30px;
+      top: 23px;
+    }
+    .mobmenu {
+      position: absolute;
+      right: 80px;
+      top: 15px;
+  }
     /* footer  */
     .normalf{
         margin-bottom: 30px !important;
@@ -34,9 +44,6 @@
       background-size: cover !important;
       height: 100% !important;
       width: 100% !important;
-    }
-    .mobmenu{
-      margin-left: 0px !important;
     }
     .imgw{
         width: 100% !important;
@@ -132,6 +139,15 @@
 
     .fmmob1{
         font-size: 30px;
+    }
+    .align1{
+      margin: 10px !important;
+    }
+    .contal{
+      margin-top: 0px !important;
+    }
+    .bgclrn{
+      background-color:transparent !important;
     }
 
     .fmmob2{
