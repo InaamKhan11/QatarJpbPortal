@@ -43,7 +43,7 @@
       background: 
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
       url('../images/Picture1.jpg') no-repeat center !important;
-      background-position: 30% 10% !important;
+      background-position: 27% 10% !important;
       background-size: cover !important;
       height: 100% !important;
       width: 100% !important;
@@ -87,6 +87,9 @@
     .btncent1{
         padding: auto !important;
         margin-top: -10px !important;
+    }
+    .imgalign{
+      margin-top: 150px !important;
     }
 
     .jpmob{
