@@ -26,6 +26,13 @@ h4 h5 h6 p{
     font-weight: normal;
     font-style: normal;
 }
+a{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
 .minb{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
