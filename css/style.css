@@ -29,10 +29,11 @@ body{
     margin-top: 60px;
 }
 .search-section {
+    background: url('../images/Picture1.jpg') no-repeat center center;
     background-size: cover;
-    padding-top: 170px;
+    width: 100%;
+    padding-top: 180px;
     padding-bottom: 300px;
-    background: url('../images/Picture1.jpg') no-repeat center;
 }
 .search-box {
     display: flex;
