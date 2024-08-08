@@ -101,3 +101,8 @@ updateButtonStylesN(); // Ensure the correct button is active on page load
 setInterval(nextSlideN, 4000);
 
 // second inner section end
+
+
+
+
+
