@@ -1,4 +1,6 @@
-
+td{
+    padding: 5px !important;
+}
 body{
     background-color: #262626;
 }
@@ -131,6 +133,7 @@ body{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     text-align: center;
+    border: 4px solid #720f3f !important;
   }
 .bordbtm{
     border-bottom: 4px solid #720f3f !important;
