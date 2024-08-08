@@ -329,18 +329,8 @@ body{
   }
   
   .button1:hover {
-    letter-spacing: 2px;
     background-color: white;
     color: hsl(0, 0%, 100%);
-    box-shadow: rgb(197, 255, 173) 0px 7px 29px 0px;
-  }
-  
-  .button1:active {
-    background-color: hsl(118, 68%, 32%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(20, 233, 1) 0px 0px 0px 0px;
-    transform: translateY(3px);
-    transition: 100ms;
   }
 
   /* flip card start  */

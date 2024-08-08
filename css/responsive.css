@@ -206,6 +206,15 @@
     .imgmar{
         margin-top: 20px;
     }
+    .flip-card{
+      width: 50% !important;
+    }
+    .title {
+      font-size: 1.2em !important;
+      font-weight: 600 !important;
+      text-align: center !important;
+      margin: 0 !important;
+    }
     /* P_C_W page start page end   */
 
     /* Professional_career_writing page start  */
