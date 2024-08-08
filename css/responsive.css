@@ -257,6 +257,9 @@
   .whdspac{
     width: 100px !important;
   }
+  td{
+    width: auto !important;
+  }
   /* job advertisment end  */
 
 /* code for responsive css end  */
