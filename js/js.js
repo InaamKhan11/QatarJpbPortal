@@ -91,16 +91,6 @@ function updateButtonStylesN() {
     });
 }
 
-// Show the first slide initially without transition
-const carouselN = document.querySelector('.carouselN');
-const slideWidthN = document.querySelector('.carousel-itemN').offsetWidth;
-carouselN.style.transform = 'translateX(0px)';
-updateButtonStylesN(); // Ensure the correct button is active on page load
-
-// Automatically change slides every 1 second
-setInterval(nextSlideN, 4000);
-
-// second inner section end
 
 
 
