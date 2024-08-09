@@ -298,6 +298,19 @@
   td{
     width: auto !important;
   }
+  .popupimg{
+    width: 33.3% !important;
+    margin-top: 5px !important;
+  }
+  .popuptxt{
+    font-size: 7px !important;
+  }
+  .poppadd{
+    padding: 10px !important;
+  }
+  .popimgpadd{
+    padding: 4px !important;
+  }
   /* job advertisment end  */
 
 /* code for responsive css end  */
